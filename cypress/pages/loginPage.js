@@ -4,16 +4,16 @@ class LoginPage{
         cy.visit('https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F')
     }
 
-    LoginEmail(email){
-        cy.get('#Email').clear().type(email)
+    Username(username){
+        cy.get('#user-name').clear().type(username)
     }
 
-    LoginPwd(password){
-        cy.get('#Password').clear().type(password)
+    Password(password){
+        cy.get('#password').clear().type(password)
     }
 
     LogIn(){
-        cy.get('.button-1 login-button').submit()
+        cy.get('#login-button').submit()
     }
 }
 
