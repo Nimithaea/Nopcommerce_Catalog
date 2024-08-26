@@ -8,6 +8,8 @@ module.exports = defineConfig({
     experimentalWebKitSupport: true,
     experimentalOriginDependencies:true,
     includeShadowDom: true,
+    chromeWebSecurity: false,
+ 
     //for the safari browser 
     experimentalStudio:true,
     

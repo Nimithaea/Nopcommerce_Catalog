@@ -9,9 +9,9 @@ describe('Login to saucedemo App',()=> {
     it('Enter Valid User credentials',()=> {
 
         cy.visit('https://www.saucedemo.com/' , { failOnStatusCode: false });
-        login.Username('admin@yourstore.com')
-        login.Password('admin')
-        login.LogIn       
+        login.Username('standard_user')
+        login.Password('secret_sauce')
+        login.LogIn()      
        
     })
 })

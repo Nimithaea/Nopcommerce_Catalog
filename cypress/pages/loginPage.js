@@ -13,7 +13,7 @@ class LoginPage{
     }
 
     LogIn(){
-        cy.get('#login-button').submit()
+        cy.get('#login-button').click()
     }
 }
 
